@@ -1,0 +1,26 @@
+body {
+		margin: 0px;
+		background-color: black;
+	}
+	div {
+		height:50px;
+		width: 100px;
+		
+		display: inline-block;
+		margin-left: 10px;
+		margin-top:10px;
+		text-align: center;
+		padding-top:30px; 
+		font-weight: bold;
+		text-transform: uppercase;
+		transition:all 800ms ease;
+		
+	}
+	div:hover{
+		background-color: darkgray;
+		text-decoration: line-through;
+		text-transform: lowercase;
+		height:60px;
+		width: 120px;
+
+	} 
