@@ -1,6 +1,7 @@
 body{
     background-color: darkolivegreen;
     margin:0px; 
+    font-family: 'Roboto', sans-serif;
 }
 
 nav{
@@ -38,6 +39,39 @@ i:hover{
     color: white;
     
 }
+.articulo{
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+.articulo h1, .articulo h2 {
+    margin: 0px
+}
+.articulo h1{
+    color:rgb(44, 230, 44);
+    font-size: 100px;
+   
+}
+.articulo h2{
+    color: white;
+    font-size: 70px;
+   
+}
+.articulo div{
+    padding: 40px;
+    background-color:rgb(168, 80, 8);
+    color: white;
+    width: 75vw;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+
+
 /*
 Breakpoint de Tableta
 */
