@@ -46,6 +46,13 @@ i:hover{
     padding-bottom: 20px;
 
 }
+#logo-small{
+    display: none;
+}
+.contenedor_headers {
+    
+}
+
 .articulo h1, .articulo h2 {
     margin: 0px
 }
@@ -57,15 +64,18 @@ i:hover{
 .articulo h2{
     color: white;
     font-size: 70px;
+    letter-spacing: 18px;
+    padding-left: 22px;
    
 }
-.articulo div{
+.articulo div.naranja{
     padding: 40px;
     background-color:rgb(168, 80, 8);
     color: white;
     width: 75vw;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 20px;
 
 
 }
@@ -87,5 +97,56 @@ Breakpoint Celular
     #logo{
         display: none;
     }
-} 
+    #logo-small{
+        display: inline-block;
+        width: 65px;
+        margin-top:10px
+    }
+    .articulo{
+        padding: 5vw;
+        width: 90vw;
+    }
+    .articulo contenedor_headers{
+        width: 100%;
+    }
+    .articulo h1, .articulo h2{
+        display: inline-block;
+    }
+    .articulo h1 {
+        margin-bottom: -3px;
+        font-size: 40px;  
+    }
+    .articulo h2 {
+       font-size: 24px;
+       letter-spacing: 10px;
+       margin-top: -28px;
+       padding-left: 11px;
+     
+    }
+    div.contenedor-imagen{
+     
+        height: 17vw;
+        width: 17vw;
+        float:left;
 }
+    div.contenedor_headers{
+        height: 17vw;
+        width: 70vw;
+        margin:0px;
+        float:left;
+        margin-left:6px;
+
+    }
+
+    div.cotendor-imagen{
+        width: 60px;
+        display: inline-block;
+    }
+    div.contenedor-imagen img{
+        vertical-align: middle;
+    }
+    .articulo div.naranja {
+        width: -webkit-fill-available;
+        display: inline-block;
+    }
+} 
