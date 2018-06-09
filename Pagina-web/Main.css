@@ -1,5 +1,5 @@
 body{
-    background-color: darkolivegreen;
+   
     margin:0px; 
     font-family: 'Roboto', sans-serif;
 }
@@ -40,11 +40,19 @@ i:hover{
     
 }
 .articulo{
-    width: 100%;
+  
+    width: 90vw;
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding:5vw;
+    background-size: cover;
 
+}
+
+.fondo_1{
+    background-image: url('img/fondo_jeep_1.jpg');
+}
+.fondo_2{
+    background-image: url('img/fondo_jeep_2.jpg');
 }
 #logo-small{
     display: none;
@@ -58,12 +66,12 @@ i:hover{
 }
 .articulo h1{
     color:rgb(44, 230, 44);
-    font-size: 100px;
+    font-size: 120px;
    
 }
 .articulo h2{
     color: white;
-    font-size: 70px;
+    font-size: 80px;
     letter-spacing: 18px;
     padding-left: 22px;
    
@@ -79,7 +87,13 @@ i:hover{
 
 
 }
-
+.articulo-blanco{
+    background-color: white;
+    text-align: center;
+    padding: 12px;
+    color:gray;
+    
+}
 
 
 /*
@@ -89,6 +103,7 @@ Breakpoint de Tableta
     i{
         
     }
+}
 /* 
 Breakpoint Celular
 */
@@ -149,4 +164,9 @@ Breakpoint Celular
         width: -webkit-fill-available;
         display: inline-block;
     }
+    .articulo-blanco p{
+        display: none;
+    }
 } 
+
+
