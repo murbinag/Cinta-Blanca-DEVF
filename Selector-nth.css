@@ -1,0 +1,54 @@
+		body{
+			background-color: black;
+			margin:0px;
+		}
+		div{
+			height: 170px;
+			width: 170px;
+			margin:5px;
+			display: inline-block;
+			transition:all 1500ms ease;
+		}
+	
+		div:last-child{
+			height: 70px;
+			width: 70px;
+			background-color: yellow;
+
+
+		}
+		div:hover:nth-child(odd){
+			background-color: red;
+			height: 200px;
+			width: 200px;
+		}
+		div:hover:nth-child(even){
+			background-color: blue;
+			height: 120px;
+			width: 120px;
+		}
+		div:hover:nth-child(9){
+			height: 120px;
+			width: 200px;
+		}
+		div:hover:nth-child(15){
+			height: 200px;
+			width: 120px;
+		}
+		div:hover:nth-child(11){
+			height: 120px;
+			width: 200px;
+		}
+		div:hover:nth-child(20){
+			height: 200px;
+			width: 120px;
+		}
+		div:hover:nth-child(24){
+			height: 200px;
+			width: 120px;
+		}
+		div:hover:last-child{
+			height: 150px;
+			width: 150px;
+
+		}
