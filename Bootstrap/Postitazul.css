@@ -1,0 +1,21 @@
+
+.row {
+    margin-top: 3px;
+}
+
+.row div {
+    height: 60px;
+    padding: 1px;
+
+}
+
+.postit{
+    background-color: blue;
+    width: 100%;
+    box-shadow: gray 3px 3px 3px;
+}
+.amarillo {
+    background-color: yellow;
+}
+
+
