@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hola Mundo - JS</title>
+</head>
+<body>
+    <script>
+       //comentario padre santo
+        console.log('Hola Mundo');
+        console.log(2*3);
+
+        let nombre="Mauricio de Dios";
+        console.log(nombre);
+
+        let resultado=nombre.concat(' gonzalez');
+        console.log(resultado);
+
+        nombre=nombre.concat(' Carpio');
+        console.log(nombre);
+
+        let lista=[1,2,3,4,5];
+        console.log(lista);
+        console.log(lista[0]);
+
+        //Arrays
+        let alumnos=["Israel","Alan","José", "Míchell", "Mauricio"];
+        console.log(alumnos);
+        //Agrar al final del array
+        alumnos.push("Fanny");
+        console.log(alumnos);
+        alumnos.pop();
+        console.log(alumnos);
+        alumnos.unshift("Cristal");
+        console.log(alumnos);
+
+        //Array en algún lugar en el array
+        alumnos.splice(4,0, 'Petra');
+        console.log(alumnos);
+
+        let lista_al=[
+            ["Alan","Jose","Mauricio","Esutacio"],
+            ["Michelle", "Ana","Karmen","Hana"],
+        ]
+        console.log(lista_al);
+        console.table(lista_al);
+
+    
+
+
+        
+    </script>
+</body>
+</html>
