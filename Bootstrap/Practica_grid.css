@@ -1,4 +1,22 @@
-.container div{
-    border: 1px solid black;
-    
+.altura360 {
+    height: 50vh;    
 }
+.Blanco {
+    background: white;
+}
+.Gris {
+    background: lightgray;
+    border: 1px solid black;
+    margin: 0px;
+}
+.altura180{
+    height: 25vh;
+}
+.bordes0 {
+    margin: 0px;
+    padding: 0px;
+}
+@media screen and (max-width: 480px) {
+    
+
+
