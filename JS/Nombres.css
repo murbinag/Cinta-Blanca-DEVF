@@ -1,0 +1,28 @@
+
+body{
+    margin:0;
+    background-color: rgb(255, 132, 132);
+    font-family: 'Montserrat Alternates', sans-serif;
+
+}
+
+#el_contenedor{
+    margin-top: 20px;
+}
+
+#el_contenedor h2{
+    background-color: rgb(247, 3, 3);
+    border: 5px dashed black;
+    width: 100%;
+    padding: 15px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+#el_contenedor h2:hover{
+    background-color: rgb(156, 73, 73);
+}
+#el_contenedor h2:active{
+    background-color: rgb(58, 13, 13);
+    border: solid black;    
+}
