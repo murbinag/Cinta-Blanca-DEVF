@@ -19,15 +19,25 @@ function fibonacci(nveces) {
     let fibo = [0, 1];
     let contenedor = document.createElement('div');
 
-    for (i = 1; i < nveces - 1; i++) {
-        let numero = fibo[i] + fibo[i - 1];
-        fibo.push(numero);
-
-        let parrafo = creaParrafoHTML(numero);
+    if(nveces>0){
+        let parrafo=creaParrafoHTML(0);
         contenedor.appendChild(parrafo);
     }
-    console.log(fibo);
 
+    if(nveces>1){
+        let parrafo=creaParrafoHTML(0);
+        contenedor.appendChild(parrafo);
+    }
+    
+    if(nveces>2){
+        for (i = 1; i < nveces - 1; i++) {
+            let numero = fibo[i] + fibo[i - 1];
+            fibo.push(numero);
+
+            let parrafo = creaParrafoHTML(numero);
+            contenedor.appendChild(parrafo);
+        }
+    }
     document.getElementsByTagName('body')[0].appendChild(contenedor);
 
     return fibo;
@@ -46,7 +56,7 @@ function numeros_pares(numeros) {
 
 function calculaFibo(){
         let cantidad=document.getElementById('cantidad').value;
-        if (cantidad>1){    
+        if (cantidad>0){    
             fibonacci(cantidad);
         }
         else{
